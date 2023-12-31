@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.items{
+    display: flex;
+}
+.item{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    list-style: none;
+
+}
+.logo{
+    width: 60px;
+}

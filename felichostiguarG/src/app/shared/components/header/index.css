@@ -1,11 +1,16 @@
+.container{
+    position: relative;
+}
 .holagente{
-    /* position: absolute; */
-    z-index: -1;
+    position: fixed;
+    z-index: 1;
 }
 .header{
-    display: flex;
-    justify-content: space-between;
+    width: 100vw;
     margin: 50px;
+    display: flex !important;
+    justify-content: space-between ;
+    position: relative;
 }
 .items{
     display: flex;
@@ -14,7 +19,6 @@
     margin-left: 20px;
     margin-right: 20px;
 
-    background-color: red;
 
     text-decoration: none;
     list-style: none;

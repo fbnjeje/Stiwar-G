@@ -1,10 +1,13 @@
 .container{
     width:100%;
-    height:auto;
+    height:100%;
     position: relative;
 }
 .mainImg{
     width:100%;
-    height:auto;
+    height:100%;
+    /* opacity: .2; */
+            /* position: absolute; */
+
     }
-    
+                                        
